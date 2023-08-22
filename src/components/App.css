@@ -1,0 +1,45 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-category {
+    width: 800px;
+}
+
+.status-category p {
+    font-size: 2.2em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.status-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status-page-header {
+    margin: 0;
+    text-align: center;
+    text-shadow: -2px -2px 0 #ff3b3b, 1px -1px 0 #ff3b3b, -1px 1px 0 #ff3b3b,
+        1px 1px 0 #ff3b3b;
+    font-size: 5rem;
+    font-family: "Calligraffitti", cursive;
+}
+
+.status-header-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin: 0 0 10px 0;
+}
